@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:id="@+id/building"
+    tools:context=".splashscreen">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/building"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="Welcome's You To The Modern World Of Society Management!"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textStyle="italic"
+        android:textSize="35dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description :- A housing cooperative or a housing co-op, is a legal entity, usually a cooperative or a corporation, which owns real estate, consisting of one or more residential buildings; it is one type of housing tenure."
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+       android:textAlignment="center"
+        android:textStyle="italic"
+        android:layout_marginBottom="50dp"/>
+
+
+
+
+
+</RelativeLayout>

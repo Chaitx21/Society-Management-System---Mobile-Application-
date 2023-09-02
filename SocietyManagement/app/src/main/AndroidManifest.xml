@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon1"
+        android:label="Society Management"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".docuser5" />
+        <activity android:name=".docuser4" />
+        <activity android:name=".docuser3" />
+        <activity android:name=".docuser2" />
+        <activity android:name=".docuser1" />
+        <activity android:name=".feeduser105" />
+        <activity android:name=".feeduser104" />
+        <activity android:name=".feeduser103" />
+        <activity android:name=".feeduser102" />
+        <activity android:name=".feeduser101" />
+        <activity android:name=".feedbackadmin" />
+        <activity android:name=".User4Activity" />
+        <activity android:name=".User3Activity" />
+        <activity android:name=".User2Activity" />
+        <activity android:name=".User1" />
+        <activity android:name=".AllNoticeuser" />
+        <activity android:name=".AllNoticeadmin" />
+        <activity android:name=".AllComplaintsuser" />
+        <activity android:name=".AllComplaintsadmin" />
+        <activity android:name=".splashscreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".usernote105" />
+        <activity android:name=".usernote104" />
+        <activity android:name=".usernote103" />
+        <activity android:name=".usernote102" />
+        <activity android:name=".usernote101" />
+        <activity android:name=".usercomp105" />
+        <activity android:name=".usercomp104" />
+        <activity android:name=".usercomp103" />
+        <activity android:name=".usercomp102" />
+        <activity android:name=".usercomp101" />
+        <activity android:name=".adminnote105" />
+        <activity android:name=".adminnote104" />
+        <activity android:name=".adminnote103" />
+        <activity android:name=".adminnote102" />
+        <activity android:name=".adminnote101" />
+        <activity android:name=".admincomp105" />
+        <activity android:name=".admincomp104" />
+        <activity android:name=".admincomp103" />
+        <activity android:name=".admincomp102" />
+        <activity android:name=".admincomp101" />
+        <activity android:name=".userbill105" />
+        <activity android:name=".userbill104" />
+        <activity android:name=".userbill103" />
+        <activity android:name=".userbill102" />
+        <activity android:name=".userbill101" />
+        <activity android:name=".useraddup105" />
+        <activity android:name=".useraddup104" />
+        <activity android:name=".useraddup103" />
+        <activity android:name=".useraddup102" />
+        <activity android:name=".useraddup101" />
+        <activity android:name=".adminbill105" />
+        <activity android:name=".adminbill104" />
+        <activity android:name=".adminbill103" />
+        <activity android:name=".adminbill102" />
+        <activity android:name=".adminbill101" />
+        <activity android:name=".adminuser105" />
+        <activity android:name=".adminuser104" />
+        <activity android:name=".adminuser103" />
+        <activity android:name=".adminuser102" />
+        <activity android:name=".adminuser101" />
+        <activity android:name=".adminflat105" />
+        <activity android:name=".adminflat104" />
+        <activity android:name=".adminflat103" />
+        <activity android:name=".adminflat102" />
+        <activity android:name=".adminflat101" />
+        <activity android:name=".Noticesuser" />
+        <activity android:name=".Complaintsuser" />
+        <activity android:name=".ViewPayDetailsuser" />
+        <activity android:name=".AddUpdateDetailsuser" />
+        <activity android:name=".Notices" />
+        <activity android:name=".Complaints" />
+        <activity android:name=".UserDetails" />
+        <activity android:name=".BillDetails" />
+        <activity android:name=".FlatDetails" />
+        <activity android:name=".user" />
+        <activity android:name=".admin" />
+        <activity android:name=".MainActivity" />
+
+
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-1418733064575947~4894529292" />
+    </application>
+
+</manifest>

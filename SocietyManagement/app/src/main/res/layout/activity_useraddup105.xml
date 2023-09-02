@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical"
+    tools:context=".useraddup105">
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="50dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="Flat 105"
+        android:textColor="#ffffff"
+        android:textSize="40sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/radius1"
+        android:gravity="center"
+        android:text="NAME"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/radius1"
+        android:gravity="center"
+        android:text="MOBILE NO."
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/radius1"
+        android:gravity="center"
+        android:text="DOB."
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/radius1"
+        android:gravity="center"
+        android:text="ADDRESS"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="170dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="-350dp"
+        android:background="@drawable/radius"
+        android:ems="10"
+        android:gravity="center"
+        android:id="@+id/ed1"
+        android:inputType="text"
+        android:text="Sahil"
+        android:textSize="20sp"
+        android:textStyle="italic"/>
+
+    <EditText
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="170dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/radius"
+        android:ems="10"
+        android:gravity="center"
+        android:id="@+id/ed2"
+        android:inputType="text"
+        android:text="9775531887"
+        android:textSize="20sp"
+        android:textStyle="italic"/>
+
+    <EditText
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="170dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/radius"
+        android:ems="10"
+        android:gravity="center"
+        android:id="@+id/ed3"
+        android:inputType="text"
+        android:text="29-4-2003"
+        android:textSize="20sp"
+        android:textStyle="italic"/>
+
+    <EditText
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="170dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/radius"
+        android:ems="10"
+        android:gravity="center"
+        android:id="@+id/ed4"
+        android:inputType="text"
+        android:text="DNYA bldg.Mumbai"
+        android:textSize="20sp"
+        android:textStyle="italic"/>
+
+</LinearLayout>

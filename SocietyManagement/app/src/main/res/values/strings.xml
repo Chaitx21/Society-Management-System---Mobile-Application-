@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Society Management</string>
+    <string-array name="usertype">
+        <item>user</item>
+        <item>admin</item>
+    </string-array>
+</resources>
