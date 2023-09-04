@@ -4,3 +4,8 @@ The system also maintains and calculates the society maintenance as well as park
 The system needs an administrator to input various flat owner data and billing amounts into it. The rest of the work is done by the system on its own. The system consists of automatic bill generation facility. 
 It calculates various associated costs, adds them up and provides a bill accordingly. System has to send email notification for maintenance details and water bill due date. 
 Secretory can create event and add flat owners to this event. Also he can able to modify event or cancel event. Event notification should be send to email.
+
+NOTE :- 
+-Directly download the zip file of the project.
+-Open Android Studio application and open the project folder directly from it.
+-Update the gradle dependencies to the latest versions.
